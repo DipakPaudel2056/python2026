@@ -1,0 +1,23 @@
+import math
+print("Square root of 16 is:", math.sqrt(16))
+print("Value of pi is:", math.pi)
+print("Value of e is:", math.e)
+
+print(pow(2, 3))  # 2 raised to the power of 3
+min_value = min(5, 10, 2, 8)
+max_value = max(5, 10, 2, 8)
+print("Minimum value is:", min_value)
+print("Maximum value is:", max_value)
+print("Absolute value of -7 is:", abs(-7))
+print("Logarithm base 10 of 1000 is:", math.log10(1000))
+print("Ceiling of 4.3 is:", math.ceil(4.3))
+print("Floor of 4.7 is:", math.floor(4.7))
+print("Factorial of 5 is:", math.factorial(5))
+print("Sine of 90 degrees is:", math.sin(math.radians(90)))
+print("Cosine of 0 degrees is:", math.cos(math.radians(0)))
+print("Tangent of 45 degrees is:", math.tan(math.radians(45)))
+print("Exponential of 3 is:", math.exp(3))
+print("Hypotenuse of sides 3 and 4 is:", math.hypot(3, 4))
+print("Radians of 180 degrees is:", math.radians(180))
+print("Degrees of π radians is:", math.degrees(math.pi))
+print("GCD of 48 and 18 is:", math.gcd(48, 18))
