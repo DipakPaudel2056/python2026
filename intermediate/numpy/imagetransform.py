@@ -19,8 +19,8 @@ else:
     grayscale_im_array = im_array  # already grayscale
 # Convert back to images and save
 rotated_im = Image.fromarray(rotated_im_array)
-rotated_im.save("rotated_image.jpg")    
+rotated_im.show("rotated_image.jpg")    
 flipped_im = Image.fromarray(flipped_im_array)
-flipped_im.save("flipped_image.jpg")
+flipped_im.show("flipped_image.jpg")
 grayscale_im = Image.fromarray(grayscale_im_array.astype(np.uint8))
-grayscale_im.save("grayscale_image.jpg")
+grayscale_im.show("grayscale_image.jpg")
